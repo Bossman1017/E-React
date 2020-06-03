@@ -1,0 +1,109 @@
+[
+        {
+            "name": "Super Smash Bros Melee",
+            "description":"Can Mario beat Donkey Kong? Is Pikachu tougher than Yoshi? Find out as 12 of Nintendo's biggest starsbattle in head-to-head competition.Battle through a tournament in 3-D fighting arenas or take on multiple players with special moves an unique strengths.",
+            "cost": "$39.99",
+            "image":"e-img/melee.jpg",
+            "alt":"ffvii",
+            "color":"yellow",
+            "type": "OldSchool",
+            "price":"Low"
+        },
+        {
+            "name": "Final Fantasy VII Remake",
+            "description": "FINAL FANTASY VII REMAKE rebuilds the legendary RPG for today. The first entry in a multi-part saga,delivering a level of depth inconceivable for the original. Mind-blowing story, unforgettable characters, epic battles and technical excellence collide",
+            "cost": "$59.99",
+            "image":"e-img/ffvii.jpg",
+            "alt":"FF",
+            "color":"gray",
+            "type":"NewSchool",
+            "price":"Medium"
+        },
+        {
+            "name": "Dragonball Z: Budokai Tenchaichi 3",
+            "description": "Dragonball Z: Budokai Tenchaichi 3 takes you beyond the earlier Dragon Ball Z sagas. Experience the full force of the most powerful fighters in the universe, in a challenge like no other. Discover a new 'Dragon World'-- and see if your martial skills will prevail against deadly new villains!.",
+            "cost": "$79.99",
+            "image":"e-img/dbzbt-3.jpg",
+            "type": "OldSchool",
+            "price":"Medium"
+
+        },
+        {
+            "name": "Pokemon Sword/Shield",
+            "description": "A new generation of Pokémon is coming to the Nintendo Switch system. Become a Pokémon Trainer and embark on a new journey in the new Galar region Choose from one of three new partner Pokémon: Grookey, Scorbunny, or Sobble. You'll encounter new and familiar Pokémon as you catch, battle, and trade Pokémon while exploring new areas and uncovering an all-new story.",
+            "cost": "99.99",
+            "image":"e-img/pokemonswsh.jpg",
+            "color":"pink",
+            "type":"NewSchool",
+            "price":"Special"
+
+        },
+        {
+            "name": "Sonic Riders",
+            "description": "Sonic Riders teams up Sonic the Hedgehog, Tails, Knuckles and a group of new characters, in a wild new racing game. Dr. Robotnik has challenged racers from across the world to compete in his Worldwide Grand Prix, the prize being a Chaos Emerald.",
+            "cost": "$19.99",
+            "image":"e-img/sonicriders.jpg",
+            "color":"gray",
+            "type": "OldSchool",
+            "price":"Low"
+        },
+        {
+            "name": "Ultimate Marvel Vs. Capcom 3",
+            "description": "In Ultimate Marvel Vs. Capcom 3, fill the shoes of legendary characters from both the Marvel and Capcom Universes -including massively popular characters such as Ryu, Wolverine, Iron Man, and Morrigan, as well as fan favorites such as Trish from Devil May Cry and the wise-cracking Deadpool.",
+            "cost": "$19.99",
+            "image":"e-img/UMVC3.jpg",
+            "type": "OldSchool",
+            "price":"Low"
+        },
+        {
+            "name": "Street Fighter III: Third Strike",
+            "description": "Break out your nunchaku and don your black belt: Ryu, Chun Li, and Ken are back, and they've brought with them 16 friends and a ton of new special moves to vie for the coveted championship belt in Street Fighter III: 3rd Strike.",
+            "cost": "$19.99",
+            "color":"red",
+            "image":"e-img/sf.jpg",
+            "type": "OldSchool",
+            "price":"Low"
+        },
+        {
+            "name": "Mortal Kombat 11",
+            "description": "Mortal Kombat is back and better than ever in the next evolution of the iconic franchise. The all new Custom Character Variations give you unprecedented control to customize the fighters and make them your own. The new graphics engine showcasing every skull shattering, eye popping moment, brings you so close to the fight you can feel it.",
+            "cost": "$59.99",
+            "image":"e-img/mk11.png",
+            "type":"NewSchool",
+            "price":"Medium"
+        },
+        {
+            "name": "Super Nintendo(Legacy)(Used)",
+            "description": "From your first ride on Yoshi to the final heart-pounding escape from Planet Zebes, the Super Nintendo Entertainment System is pure 16-bit retro gaming perfection.",
+            "cost": "$49.99",
+            "image":"e-img/nintendo.jpg",
+            "type": "Consoles",
+            "price":"High"
+        },
+        {
+            "name": "Xbox One S",
+            "description": "Xbox, Microsoft's greatest invention hs now been revolutionized! Note: Playstation is and will always be better.",
+            "cost": "$279.99",
+            "image":"e-img/xbox.jpeg",
+            "type": "Consoles",
+            "price":"High"
+        },
+        {
+            "name": "Nintendo Switch W/ Red&Blue Joycons",
+            "description": "Introducing Nintendo Switch, the new home video game system from Nintendo. In addition to providing single and multiplayer thrills at home, the Nintendo Switch system can be taken on the go so players can enjoy a full home console experience anytime, anywhere.",
+            "cost": "$249.99",
+            "image":"e-img/nintendosw.jpg",
+            "type": "Consoles",
+            "price":"High"
+
+        },
+        {
+          "name":"Playstation 4 Pro" ,
+          "description":"The most advanced PlayStation system ever. PS4 Pro is designed to take your favorite PS4 games and add to them with more power for graphics, performance, or features for your 4K HDR TV, or 1080p HD TV. Ready to level up? ",
+          "cost":"$349.99",
+          "image":"e-img/ps4Pro.jpg",
+          "type": "Consoles",
+          "price":"High"
+        }
+
+    ]

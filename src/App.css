@@ -1,0 +1,459 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* For Big Screens */
+@media screen and (min-width:801px){
+   
+.container__nav {
+    margin: 29px;
+
+    
+} 
+
+.index__section-gamecube{
+    width: 47%;
+    height:517px;
+}
+
+.index__section-playstation{
+    width: 50%;
+    height:492px;
+}
+
+
+.container__product{
+    border: 3px black solid;
+    display:flex;
+}
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+#navbar a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 28px;
+}
+#navbar {
+  background: linear-gradient(pink, blue , red);
+  color: #fff;
+  overflow: auto;
+  width: 100%;
+}
+.Games{
+  display: flex;
+    margin: 34px;
+    border: 6px solid #eee;
+    box-shadow: 0 14px 2px #eee;
+    width: 40%;
+    padding: 20px;
+    background: orange;
+    height: 30rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+}
+.product-img {
+  height: 46%;
+  width: 41%;
+  align-self: center;
+}
+.option_1{
+  font-size: 24px;
+  background:orange;
+  margin-right: 40px;
+}
+.option_2{
+  font-size: 24px;
+  background:rgb(27, 170, 175);
+}
+.flaming-logo{
+    width:70px;
+    float:left;
+    visibility: visible;
+    display: block;
+    transform: translateY(15px);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 21px;
+  background: linear-gradient(pink,white,rgba(30, 62, 123, 0.568));
+  font-size: 25px;
+  clear: both;
+  justify-content: space-around;
+  margin-top: 65px;
+}
+}
+/*For Tablet Screens*/
+@media (max-width: 1024px){
+    .index__section-gamecube{
+        width: 47%;
+        height: 410px;
+    }
+    .index__section-playstation{
+        width: 50%;
+        height:430px;
+    }
+    
+    #navbar{
+    background: linear-gradient(pink, blue , red);
+    color: #fff;
+    overflow: auto;
+    width: 100%;
+    }
+    .option_1{
+      background: green;
+    }
+    .option_2{
+      background: orange;
+      margin: 0px 20px;
+    }
+
+    .product-img {
+      height: 46%;
+      width: 41%;
+      align-self: center;
+  }
+  .Games{
+  display: flex;
+  margin: 34px;
+  border: 6px solid #eee;
+  box-shadow: 0 14px 2px #eee;
+  width: 80%;
+  padding: 20px;
+  background: orange;
+  height: 30rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  float: left;
+  }
+  .footer {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 21px;
+    background: linear-gradient(pink,white,rgba(30, 62, 123, 0.568));
+    font-size: 20px;
+    clear: both;
+    justify-content: space-around;
+    margin-top: 65px;
+  }
+}
+/*For Mobile Screens*/
+@media (max-width: 450px) {
+    .flaming-logo {
+       display:none;
+     }
+     #navbar a {
+        color: blanchedalmond;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    #navbar {
+      background: linear-gradient(pink, blue , red);
+      color: #fff;
+      overflow: auto;
+      width: 100%;
+  }
+    .footer img{
+        width: 52px;
+      }
+      .flaming-logo__footer{
+          width: 52px;
+        background: #333;
+      }
+      .logo-copyright {
+        display: flex;
+        align-items: center;
+      }
+      .index__section-gamecube{
+        width: 100%;
+        height:390px;
+    }
+    
+    .index__section-playstation{
+        width: 100%;
+        height:390px;
+    }
+    
+    .index__section-sega{
+        width: 100%;
+    height:390px;
+    }
+.Games{
+    display: flex;
+    margin: 34px;
+    border: 6px solid #eee;
+    box-shadow: 0 14px 2px #eee;
+    width: 68%;
+    padding: 20px;
+    background: orange;
+    height: 30rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    float: left;
+}
+label{
+  font-size: 20px;
+}
+.option_1{
+  font-size: 14px;
+  background:orange;
+  margin-right: 17px;
+}
+.option_2{
+  font-size: 17px;
+  background:rgb(27, 170, 175);
+}
+.product-img{
+height: 27%;
+width: 51%;
+align-self: center;
+}
+.footer {
+  width: 86%;
+  display: flex;
+  align-items: center;
+  padding: 21px;
+  background: linear-gradient(pink,white,rgba(30, 62, 123, 0.568));
+  font-size: 20px;
+  clear: both;
+  justify-content: space-around;
+  margin-top: 65px;
+
+}
+    }
+
+body{
+    background:linear-gradient(pink,white,blue);
+}   
+
+#navbar a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+
+.Products__header{
+  text-align: center;
+}
+
+
+.container__nav {
+    margin: 29px;
+}
+.flaming-logo{
+    width:70px;
+    float:left;
+    transform: translateY(1px);
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    color: rgb(163, 179, 190);
+}
+.index__article--header{
+text-align: center;
+}
+
+.index__article{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    border: solid black 10px;
+    margin-top: 25px;
+    margin-bottom: 11px;
+}
+
+.index__section{
+    width:100%
+}
+
+.container__product{
+    border: 3px black solid;
+}
+.product__div{
+  display:flex;
+  justify-content: center;
+}
+.product{
+    background: pink;
+    width:92%;
+    border:3px black solid;
+    font-size: 20px;
+    font-weight: bold;
+    margin:8px;
+    text-align: center;
+}
+#product_filter{
+  color: aqua;
+}
+
+p{text-align: center;
+color:blue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    text-align: center;
+}
+
+#home--paragraph{
+  font-size: 30px;
+}
+.contact__header{
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.contact__form{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border: 28px solid mistyrose;
+    margin-top: 39px;
+    font-size: 22px;
+  }
+  
+  .filter-container{
+    display: flex;
+    justify-content: space-around;
+     border: 28px solid mistyrose;
+    margin: 35px;
+    font-weight: bold;
+    letter-spacing: 4px;
+   
+}
+
+  .filter-container #filterSelect {
+    font-size: 21px;
+    font-weight: bold;
+    border: solid green 5px;
+}
+
+  .filter-container #priceSelect{
+    font-size: 21px;
+    font-weight: bold;
+    border: solid blue 5px;
+}
+.item__price {
+    display: none;
+  }
+  .item__type{
+    display: none;
+  }
+  
+  /*Form button for contents*/
+  .form-button {
+    justify-content:flex-start;
+      color: black;
+      font-size: 14px;
+      padding: 10px 5px 5px 5px;
+      text-align: center;
+      border-radius: 3px;
+      cursor:pointer;
+      text-transform: uppercase;
+      background:linear-gradient(pink, white);
+      border: 3px solid black;
+  }
+  .form-button:hover,
+  .form-button:active{
+    color:blue;
+  }
+    /*Margins set for contact form*/
+    form input{
+    margin:20px 0;
+    width: 60%;
+    height: 32px;
+    border: 4px solid hotpink;
+  }
+
+  label{
+      font-size: 28px;
+  }
+
+  textarea{
+    width: 50%;
+    margin-bottom: 22px;
+    border: 5px solid hotpink;
+  }
+
+  p + .footer {
+font-size:25px;
+  }
+
+
+  
+  /*Image on the footer*/
+  .footer img{
+    width: 52px;
+  }
+  .flaming-logo__footer{
+      width: 52px;
+    background: #333;
+  }
+  .logo-copyright {
+    display: flex;
+    align-items: center;
+  }
