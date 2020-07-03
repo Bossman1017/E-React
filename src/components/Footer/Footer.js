@@ -13,11 +13,11 @@ render(){
         <p> &copy;Get Some Game 2020</p>
 
    
-        <a href="https://www.facebook.com/GameStoresSA/"  rel="noopener"> <img
+        <a href="https://www.facebook.com/GameStoresSA/"  rel="noopener"> <img className ="facebook_footer"
                 src="https://cdn1.iconfinder.com/data/icons/social-networks-3/512/facebook-512.png"
                 alt="facebook logo"/></a>
 
-        <a href="https://www.instagram.com/gamestheshop/?hl=en"  rel="noopener"> <img
+        <a href="https://www.instagram.com/gamestheshop/?hl=en"  rel="noopener"> <img classname ="instagram_footer"
                 src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_color-512.png"
                 alt="instagram logo"/></a>
 
